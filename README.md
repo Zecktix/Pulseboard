@@ -1,17 +1,10 @@
 # Pulseboard
 
-[![CI](https://github.com/Zecktix/pulseboard/actions/workflows/ci.yml/badge.svg)](https://github.com/Zecktix/pulseboard/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **Clarity for every business decision.**
 
 Pulseboard is a business analytics dashboard. It turns order data into revenue trends, a business health score, profit, customer and cash metrics, goal tracking, a forecast simulator and a ranked list of what to focus on next. It can read a Shopify store live, or work from a CSV or Shopify's own order export. The whole app is **one file with no dependencies**.
-
-**[Live demo](https://Zecktix.github.io/pulseboard/)** (demo data and file import; the Shopify sign-in needs the local server, see below)
-
-![Pulseboard tour](docs/screenshots/demo.gif)
-
-> Every screenshot uses generated **demo data**, which the app labels clearly. Nothing is shown as real unless you import a file or connect Shopify.
 
 ## Features
 
@@ -21,18 +14,6 @@ Pulseboard is a business analytics dashboard. It turns order data into revenue t
 - **Profit, Customers and Cash tabs:** revenue, expenses, profit and margins; total, new and returning customers, CAC and LTV; cash inflows, outflows, burn and runway. Only figures that can be calculated from the data are shown, and missing ones are listed instead of invented.
 - **Goal tracker and forecast simulator:** best, expected and worst cases, break-even and saved scenarios, always labelled as estimates.
 - **Dark and light themes**, hide-able sections, a summary report and CSV export.
-
-| | |
-|---|---|
-| ![Overview](docs/screenshots/overview.png) | ![Light theme](docs/screenshots/light-theme.png) |
-| ![Health score and focus](docs/screenshots/health-and-focus.png) | ![Forecast](docs/screenshots/forecast.png) |
-
-<details><summary>More screenshots</summary>
-
-![Profit tab](docs/screenshots/tab-profit.png)
-![Customers tab](docs/screenshots/tab-customers.png)
-![Cash tab](docs/screenshots/tab-cash.png)
-![Mobile](docs/screenshots/mobile.png)
 
 </details>
 
